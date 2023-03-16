@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'NGAJ-BlogApp';
+  openClose = true
+additem(value:boolean){
+this.openClose=value
+}
+// console.log(this.visible);
+
 }
